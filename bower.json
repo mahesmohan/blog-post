@@ -1,17 +1,23 @@
 {
-  "name": "blog-post",
+  "name": "Blog Post Polymer Element",
   "version": "0.0.1",
   "authors": [
     "Mahesh <mahesh@altersense.in>"
   ],
   "description": "Serves as a blog post element handiling everything a blog post might contain.",
   "license": "MIT",
-  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "main": "blog-post.html",
+  "keywords": [
+    "polymer",
+    "blog",
+    "post"
+  ],
+  "homepage": "mahesmohan.in"
 }
