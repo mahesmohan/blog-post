@@ -1,10 +1,10 @@
 {
-  "name": "Blog Post Polymer Element",
+  "name": "polymer-blog-post",
   "version": "0.0.1",
   "authors": [
     "Mahesh <mahesh@altersense.in>"
   ],
-  "description": "Serves as a blog post element handiling everything a blog post might contain.",
+  "description": "Serves as a polymer blog post element handling everything a blog post might contain.",
   "license": "MIT",
   "ignore": [
     "**/.*",
