@@ -1,0 +1,27 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<polymer-element name="blog-post" noscript>
+	<template>
+	<style>
+	:host {
+		display: block;
+		width: 100%;
+
+	}
+    polyfill-next-selector { content: '.postContent p'; }
+    .postContent ::content p {
+      text-align: justify;
+    }
+	</style>
+	<div layout vertical>
+		<div class="postTitle" layout horizontal center>
+			<div flex>
+				<content select="h2"></content>				
+			</div>
+		</div>
+		<div class="postContent">
+			<content select="p"></content>
+		</div>
+	</div>
+	</template>
+</polymer-element>

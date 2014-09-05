@@ -1,0 +1,17 @@
+{
+  "name": "blog-post",
+  "version": "0.0.0",
+  "authors": [
+    "Mahesh <mahesh@altersense.in>"
+  ],
+  "description": "Serves as a blog post element handiling everything a blog post might contain.",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
