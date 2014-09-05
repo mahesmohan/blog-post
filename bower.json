@@ -13,6 +13,10 @@
     "test",
     "tests"
   ],
+  "dependencies": {
+    "platform": "Polymer/platform#>=0.4.0 <1.0.0",
+    "polymer": "Polymer/polymer#>=0.4.0 <1.0.0"
+  },
   "main": "blog-post.html",
   "keywords": [
     "polymer",
